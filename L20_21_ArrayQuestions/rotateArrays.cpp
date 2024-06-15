@@ -11,6 +11,10 @@ vector <int> rotateArray(vector <int>v , int d){
     }
     return temp;
 }
+
+vector <int> rotateArray2 (vector<int> nums){
+    
+}
 int main(){
     vector <int> v;
     int n;
