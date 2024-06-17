@@ -17,8 +17,22 @@ void reverse(char arr[]){
     }
     cout<<endl;
 }
+void reverse2(char arr[]){
+    int start = 0;
+    int end = len(arr)-1;
+    while(start<=end){
+        swap(arr[start],arr[end]);
+        start ++;
+        end --;
+    }
+    for (int i=0;i<len(arr);i++){
+        cout<<arr[i];
+    }
+    cout<<endl; 
+}
 int main(){
         char name[30];
         cin>>name;
       reverse(name);
+      reverse2(name);
 }
