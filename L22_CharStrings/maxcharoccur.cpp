@@ -30,10 +30,7 @@ int* maxoccur(string s, int arr[]){
     return arr;
 }
 int main(){
-    int arr[26];
-    for(int i=0;i<26;i++){
-        arr[i]=0;
-    }
+    int arr[26] = {0};
     string s;
     cin>>s;
     maxi(maxoccur(s,arr),26);
