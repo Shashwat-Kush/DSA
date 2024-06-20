@@ -1,28 +1,16 @@
 #include <iostream>
-#include <math.h>
+#include <string>
 using namespace std;
 
-bool findSubstring(string s, string part){
-    int n = part.length();
-    for (int i=0;i<s.length()-n;i++){
-        string a = "";
-        for(int j=i;j<i+n;j++){
-            a.push_back(s[j]);
-        }
-        if (strcmp(a,part)==0){
-            return true;
-        }
-    }
-    return false;
-}
-void removesubstring(string s, string part){
-    if (findSubstring(s,part)){
-        
-    }
-}
+
 int main(){
     string s ="daabbaabcbc";
     string part = "abc";
-    // remSubstring(s,part);
-    cout<<part[0]<<s[2];
+    while(s.length() !=0 && s.find(part)<s.length()){
+        s.erase(s.find(part),part.length());
+    }
+    for (int i=0;i<s.length();i++){
+        cout<<s[i];
+    }
+    cout<<endl;
 }
