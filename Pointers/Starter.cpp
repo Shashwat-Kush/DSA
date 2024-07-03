@@ -8,6 +8,7 @@ using namespace std;
 //Koi bhi case me pointer ka case os 8 bytes becasue the address is the only thing getting stored.
 //Jab pointer, not value me kuch add karte ho toh agli location par chala jayega
 
+//arr[i] = *(arr+i)
 int main(){
     int num = 5;
     // int *p = &num;
@@ -39,6 +40,10 @@ cout << *t << endl;
 cout << " before t" << t << endl;
 t=t+1;
 cout << " after t" << t << endl;
+
+
+
+
 
 
 }
