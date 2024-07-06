@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shashwatkushwaha/Desktop/DSA/L31_Recurcsion/output/starter'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9factoriali, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x64 }
+  - { offsetInCU: 0x4479, offset: 0x4479, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x220, symBinAddr: 0x100003D64, symSize: 0x58 }
+  - { offsetInCU: 0x44B9, offset: 0x44B9, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x304, symBinAddr: 0x100003E48, symSize: 0x2C }
+  - { offsetInCU: 0x6E81, offset: 0x6E81, size: 0x8, addend: 0x0, symName: __Z9factoriali, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x64 }
+  - { offsetInCU: 0x6EAD, offset: 0x6EAD, size: 0x8, addend: 0x0, symName: __Z5powerii, symObjAddr: 0x64, symBinAddr: 0x100003BA8, symSize: 0x6C }
+  - { offsetInCU: 0x6EE7, offset: 0x6EE7, size: 0x8, addend: 0x0, symName: __Z9fibonaccii, symObjAddr: 0xD0, symBinAddr: 0x100003C14, symSize: 0x8C }
+  - { offsetInCU: 0x6F13, offset: 0x6F13, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x15C, symBinAddr: 0x100003CA0, symSize: 0x98 }
+  - { offsetInCU: 0x6FE8, offset: 0x6FE8, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x1F4, symBinAddr: 0x100003D38, symSize: 0x2C }
+  - { offsetInCU: 0x701A, offset: 0x701A, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x278, symBinAddr: 0x100003DBC, symSize: 0x8C }
+  - { offsetInCU: 0x7086, offset: 0x7086, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x330, symBinAddr: 0x100003E74, symSize: 0x38 }
+...
