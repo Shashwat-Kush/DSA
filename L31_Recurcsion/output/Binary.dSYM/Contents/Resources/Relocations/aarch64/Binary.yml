@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shashwatkushwaha/Desktop/DSA/L31_Recurcsion/output/Binary'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z6sortedPii, symObjAddr: 0x0, symBinAddr: 0x10000396C, symSize: 0xBC }
+  - { offsetInCU: 0x4479, offset: 0x4479, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x3E4, symBinAddr: 0x100003D50, symSize: 0x58 }
+  - { offsetInCU: 0x44B9, offset: 0x44B9, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x4C8, symBinAddr: 0x100003E34, symSize: 0x2C }
+  - { offsetInCU: 0x6E81, offset: 0x6E81, size: 0x8, addend: 0x0, symName: __Z6sortedPii, symObjAddr: 0x0, symBinAddr: 0x10000396C, symSize: 0xBC }
+  - { offsetInCU: 0x6EBB, offset: 0x6EBB, size: 0x8, addend: 0x0, symName: __Z3sumPii, symObjAddr: 0xBC, symBinAddr: 0x100003A28, symSize: 0x94 }
+  - { offsetInCU: 0x6EF5, offset: 0x6EF5, size: 0x8, addend: 0x0, symName: __Z6linearPiii, symObjAddr: 0x150, symBinAddr: 0x100003ABC, symSize: 0xAC }
+  - { offsetInCU: 0x6F3D, offset: 0x6F3D, size: 0x8, addend: 0x0, symName: __Z6binaryPiiii, symObjAddr: 0x1FC, symBinAddr: 0x100003B68, symSize: 0x120 }
+  - { offsetInCU: 0x6FA1, offset: 0x6FA1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x31C, symBinAddr: 0x100003C88, symSize: 0x9C }
+  - { offsetInCU: 0x7076, offset: 0x7076, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x3B8, symBinAddr: 0x100003D24, symSize: 0x2C }
+  - { offsetInCU: 0x70A8, offset: 0x70A8, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x43C, symBinAddr: 0x100003DA8, symSize: 0x8C }
+  - { offsetInCU: 0x7114, offset: 0x7114, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x4F4, symBinAddr: 0x100003E60, symSize: 0x38 }
+...
