@@ -19,12 +19,13 @@ void InsertionSort(int arr[], int n){
             printArray(arr,n);
             j--;
         }
+        cout<<endl;
     }
 }
 
 
 int main(){
-    int arr[5] = {8,7,6,5,4};
+    int arr[5] = {8,7,9,2,4};
     InsertionSort(arr,5);
     for(int i=0;i<5;i++){
         cout<<arr[i]<<" ";
